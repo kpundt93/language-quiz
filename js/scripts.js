@@ -71,14 +71,20 @@ $(document).ready(function() {
       total += 1
     }
 
-    if (total <= 6) {
+    if (!name || $.isNumeric(name)) {
+      $("#name-error").show();
+    } else if (total <= 6) {
       $("#ruby").show();
+      $("#name-error").hide();
     } else if (total <= 12) {
       $("#python").show();
+      $("#name-error").hide();
     } else if (total <= 18) {
       $("#js").show();
+      $("#name-error").hide();
     } else if (total <= 24) {
       $("#c-sharp").show();
+      $("#name-error").hide();
     } else {
       $("#error").show();
     }

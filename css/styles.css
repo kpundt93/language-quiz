@@ -3,6 +3,12 @@
   padding-bottom: 3em;
 }
 
+#name-error {
+  display: none;
+  color: red;
+  font-weight: bold;
+}
+
 .jumbotron {
   padding: 0;
   border-radius: 0;
