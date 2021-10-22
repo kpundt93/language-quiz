@@ -44,6 +44,14 @@ h5 {
   margin-top: 0.5em;
 }
 
+.result a {
+  text-decoration: underline;
+}
+
+.result a:hover {
+  font-weight: bold;
+}
+
 .btn {
   display: block;
   margin: auto;
