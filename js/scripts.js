@@ -33,7 +33,7 @@ $(document).ready(function() {
       total += 3 
     } else if (q3 === "dog") {
       total += 4
-    } else if (q3 === "snake") {
+    } else if (q3 === "hamster") {
       total += 1
     } else if (q3 == "bird") {
       total += 2
@@ -67,6 +67,22 @@ $(document).ready(function() {
       total += 4
     } else if (q6 === "cookie-dough") {
       total += 1
+    }
+
+    if (total <= 6) {
+      $("#ruby").show();
+      console.log("ruby!");
+    } else if (total <= 12) {
+      $("#python").show();
+      console.log("python!");
+    } else if (total <= 18) {
+      $("#js").show();
+      console.log("javascript!");
+    } else if (total <= 24) {
+      $("#c-sharp").show();
+      console.log("c#!");
+    } else {
+      console.log("sorry! there was an error, please try again.")
     }
   })
 });
