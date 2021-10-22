@@ -58,5 +58,15 @@ $(document).ready(function() {
     } else if (q5 === "pop") {
       total += 4
     }
+
+    if (q6 === "chocolate") {
+      total += 2
+    } else if (q6 === "strawberry") {
+      total += 3
+    } else if (q6 === "mint-chip") {
+      total += 4
+    } else if (q6 === "cookie-dough") {
+      total += 1
+    }
   })
 });
