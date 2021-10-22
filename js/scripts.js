@@ -28,5 +28,15 @@ $(document).ready(function() {
     } else if (q2 === "fall") {
       total += 1
     }
+
+    if (q3 === "cat") {
+      total += 3 
+    } else if (q3 === "dog") {
+      total += 2
+    } else if (q3 === "snake") {
+      total += 1
+    } else if (q3 == "bird") {
+      total += 4
+    }
   })
 });
