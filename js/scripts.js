@@ -48,5 +48,15 @@ $(document).ready(function() {
     } else if (q4 === "ramen") {
       total += 3
     }
+
+    if (q5 === "rock") {
+      total += 1
+    } else if (q5 === "hip-hop") {
+      total += 2
+    } else if (q5 === "rnb") {
+      total += 3
+    } else if (q5 === "pop") {
+      total += 4
+    }
   })
 });
