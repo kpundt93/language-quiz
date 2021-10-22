@@ -2,6 +2,7 @@ $(document).ready(function() {
   $("#quiz").submit(function(event) {
     event.preventDefault();
     $(".result").hide();
+    const name = $("input#name").val();
     const q1 = $("input:radio[name=q1]:checked").val();
     const q2 = $("input:radio[name=q2]:checked").val();
     const q3 = $("input:radio[name=q3]:checked").val();
@@ -81,6 +82,8 @@ $(document).ready(function() {
     } else {
       $("#error").show();
     }
+
+    $(".name").text(name);
 
   })
 });
