@@ -18,5 +18,15 @@ $(document).ready(function() {
     } else if (q1 === "red") {
       total += 4
     }
+
+    if (q2 === "winter") {
+      total += 4
+    } else if (q2 === "spring") {
+      total += 3
+    } else if (q2 === "summer") {
+      total += 2
+    } else if (q2 === "fall") {
+      total += 1
+    }
   })
 });
