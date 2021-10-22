@@ -20,11 +20,11 @@ $(document).ready(function() {
     }
 
     if (q2 === "winter") {
-      total += 4
+      total += 2
     } else if (q2 === "spring") {
       total += 3
     } else if (q2 === "summer") {
-      total += 2
+      total += 4
     } else if (q2 === "fall") {
       total += 1
     }
@@ -32,11 +32,21 @@ $(document).ready(function() {
     if (q3 === "cat") {
       total += 3 
     } else if (q3 === "dog") {
-      total += 2
+      total += 4
     } else if (q3 === "snake") {
       total += 1
     } else if (q3 == "bird") {
+      total += 2
+    }
+
+    if (q4 === "pizza") {
       total += 4
+    } else if (q4 === "sushi") {
+      total += 1
+    } else if (q4 === "tacos") {
+      total += 2
+    } else if (q4 === "ramen") {
+      total += 3
     }
   })
 });
