@@ -2,6 +2,28 @@
   display: none;
 }
 
+.jumbotron {
+  padding: 0;
+  border-radius: 0;
+}
+
+#hero {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 0.5em 0;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 0.25em;
+}
+
 .logo {
   max-width: 100%;
   height: 200px;
