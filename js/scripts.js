@@ -72,22 +72,14 @@ $(document).ready(function() {
 
     if (total <= 6) {
       $("#ruby").show();
-      console.log("ruby!");
-      console.log("total: " + total);
     } else if (total <= 12) {
       $("#python").show();
-      console.log("python!");
-      console.log("total: " + total);
     } else if (total <= 18) {
       $("#js").show();
-      console.log("javascript!");
-      console.log("total: " + total);
     } else if (total <= 24) {
       $("#c-sharp").show();
-      console.log("c#!");
-      console.log("total: " + total);
     } else {
-      console.log("sorry! there was an error, please try again.")
+      $("#error").show();
     }
 
   })
